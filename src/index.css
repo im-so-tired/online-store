@@ -1,13 +1,123 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+a{
+  text-decoration: none;
+  color:black
+}
+.Nav{
+  background-color: #2D2D2D;
+  padding:10px 0;
+  margin-bottom:30px;
+}
+.Nav .logo img{
+  height: 50px;
+  width: auto;
+}
+.Nav .content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.button-group{
+  display: flex;
+}
+.button-group a{
+  padding:10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button-group a svg{
+  height: 30px;
+  width: auto;
+}
+.Main .catalog{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap:20px;
+}
+.item{
+  display: flex;
+  flex-direction: column;
+}
+.item img{
+  width: 100%;
+  height: auto;
+}
+.item .price{
+  font-weight: bold;
+  font-size:20px;
+  font-style: italic;
+}
+.SinglePage{
+  display: flex;
+  font-size:25px;
+}
+.SinglePage .info{
+  padding:20px;
+}
+.SinglePage .price{
+  font-weight: bold;
+  font-size:30px;
+  font-style: italic;
+  display: block;
+}
+.small-container{
+  width: 800px;
+  margin:0 auto;
+}
+.info button{
+  border-radius: 0;
+  text-transform: uppercase;
+  padding:5px 40px;
+}
+.Basket{
+  width: 800px;
+  margin:0 auto;
+}
+.BasketItem{
+  width: 100%;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.BasketItem .info{
+  display: flex;
+}
+.BasketItem .info img{
+  height: 100px;
+  width: auto;
+  margin-right: 10px;
+}
+.BasketItem .name{
+  font-weight: bold;
+}
+.BasketItem .info input[type="number"]{
+  display: inline-block;
+  width: 50px;
+}
+.BasketItem .price{
+  font-weight: bold;
+  font-size:20px;
+  font-style: italic;
+  display: inline-block;
+  margin-right: 10px;
+}
+.BasketItem button{
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  transform: rotate(45deg);
+  font-size: 20px;
+  position: relative;
+}
+.BasketItem button span{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
 }

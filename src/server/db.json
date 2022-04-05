@@ -1,0 +1,61 @@
+{
+  "clothes": [
+    {
+			"id":1,
+			"price":20,
+			"img":"https://images.asos-media.com/products/asos-design-straight-leg-jeans-in-black/200212203-1-black?$n_320w$&wid=317&fit=constrain",
+			"description":"ASOS DESIGN straight leg jeans in black",
+			"type":"Men"
+		},
+		{
+			"id":2,
+			"price":30,
+			"img":"https://images.asos-media.com/products/topman-stretch-skinny-jeans-in-washed-black/200458363-1-washedblack?$n_320w$&wid=317&fit=constrain",
+			"description":"Topman stretch skinny jeans in washed black",
+			"type":"Men"
+		},
+		{
+			"id":3,
+			"price":12,
+			"img":"https://images.asos-media.com/products/asos-design-classic-rigid-jeans-in-black/20313252-1-black?$n_320w$&wid=317&fit=constrain",
+			"description":"ASOS DESIGN classic rigid jeans in black",
+			"type":"Men"
+		},
+		{
+			"id":4,
+			"price":60,
+			"img":"https://images.asos-media.com/products/levis-512-slim-taper-lo-ball-jeans-in-light-blue-wash/202299663-1-lightblue?$n_320w$&wid=317&fit=constrain",
+			"description":"Levi's 512 slim taper lo ball jeans in light blue wash",
+			"type":"Men"
+		},
+		{
+			"id":5,
+			"price":23,
+			"img":"https://images.asos-media.com/products/stradivarius-petite-crop-flare-jeans-in-black/202314172-1-black?$n_320w$&wid=317&fit=constrain",
+			"description":"Stradivarius Petite crop flare jeans in black",
+			"type":"Women"
+		},
+		{
+			"id":6,
+			"price":20,
+			"img":"https://images.asos-media.com/products/pullbear-high-waisted-mom-jean-in-light-blue/200943076-1-lightblue?$n_320w$&wid=317&fit=constrain",
+			"description":"Pull&Bear high waisted mom jean in light blue",
+			"type":"Women"
+		},
+		{
+			"id":7,
+			"price":20,
+			"img":"https://images.asos-media.com/products/stradivarius-organic-cotton-slim-mom-jean-with-stretch-in-black/200551403-1-black?$n_320w$&wid=317&fit=constrain",
+			"description":"Stradivarius organic cotton slim mom jean with stretch in black",
+			"type":"Women"
+		},
+		{
+			"id":8,
+			"price":18,
+			"img":"https://images.asos-media.com/products/stradivarius-super-high-waist-skinny-jeans-in-washed-black/201062034-1-black?$n_320w$&wid=317&fit=constrain",
+			"description":"Stradivarius super high waist skinny jeans in washed black",
+			"type":"Women"
+		}
+  ]
+ 
+}
