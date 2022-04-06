@@ -1,8 +1,8 @@
 import { useDispatch, useSelector } from "react-redux";
-import BasketItem from "../components/BasketItem";
+import BasketItem from "../components/BasketItem.jsx";
 import { v4 as uuidv4 } from 'uuid';
 import { useEffect } from "react";
-import { getTotal } from "../redux/slice";
+import { getTotal } from "../redux/slice.js";
 export default function Basket() {
   let basketItems = useSelector((state) => state.basketItems);
   let total = useSelector(state=>state.total)

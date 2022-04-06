@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useDispatch } from "react-redux";
-import { filter } from "../redux/slice";
+import { filter } from "../redux/slice.js";
 
 export default function Checkbox({ type }) {
   let [check, setCheck] = useState(true);
@@ -20,7 +20,7 @@ export default function Checkbox({ type }) {
         onChange={handleClick}
       ></input>
       <label className="form-check-label" htmlFor="flexCheckChecked">
-        {type === "Men" ? "Men" : "Women"}
+        {type}
       </label>
     </div>
   );

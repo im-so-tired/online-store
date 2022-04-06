@@ -1,7 +1,7 @@
-import Main from "./Pages/Main";
-import Basket from "./Pages/Basket";
-import SinglePage from "./Pages/SinglePage";
-import Nav from "./components/Nav";
+import Main from "./Pages/Main.js";
+import Basket from "./Pages/Basket.js";
+import SinglePage from "./Pages/SinglePage.js";
+import Nav from "./components/Nav.jsx";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {

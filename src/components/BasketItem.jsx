@@ -1,5 +1,5 @@
 import { useDispatch } from "react-redux";
-import { changeAmount, deleteBasketItem } from "../redux/slice";
+import { changeAmount, deleteBasketItem } from "../redux/slice.js";
 
 export default function BasketItem({ info }) {
   const dispatch = useDispatch();

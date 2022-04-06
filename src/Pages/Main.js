@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import { useDispatch } from "react-redux";
-import Checkbox from "../components/CheckBox";
-import Loader from "../components/Loader";
-import SingleItem from "../components/SingleItem";
-import { fetchData } from "../redux/slice";
+import Checkbox from "../components/CheckBox.jsx";
+import Loader from "../components/Loader.jsx";
+import SingleItem from "../components/SingleItem.jsx";
+import { fetchData } from "../redux/slice.js";
 
 export default function Main() {
   let dispatch = useDispatch();
